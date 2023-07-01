@@ -1,1 +1,2 @@
-# qtspcode
+# qtsp code
+Quasi Traveling Salesman Problem (QTSP) is a variations of TSP, adding one condition: only one customer maybe ignored. The 2-opt method similar to other heuristic search algorithms is sensitive to its initial point in the search space (Pedram, 20213). To minimize this sensitivity, different randomized initial routes is tested by running 10 permutations and selected the best result among them. Consequently, the outcome can vary in each iteration.
